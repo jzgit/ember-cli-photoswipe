@@ -11,7 +11,7 @@ module.exports = {
   normalizeEntityName: function() {/* generator with no args */},
 
   afterInstall: function(options) {
-    return this.addBowerPackageToProject('photoswipe', PHOTOSWIPE_VERSION);
+    return this.addBowerPackageToProject('jzgit/photoswipe', '#master');
   }
 
 };
